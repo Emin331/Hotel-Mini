@@ -1,5 +1,5 @@
 import "./App.css";
-import hotelImage from "./assets/images.jpg";
+
 
 function App() {
   return (
@@ -24,12 +24,7 @@ function App() {
       <section
         id="home"
         className="hero"
-        style={{
-          backgroundImage: `linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)
-          ), url(${hotelImage})`,
-        }}
+       
       >
         <div className="hero-content">
           <p className="small-title">WELCOME TO GRANDSTAY</p>
