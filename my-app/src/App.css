@@ -51,12 +51,12 @@ a {
 
 .navbar nav a {
   font-size: 14px;
-  color: #555;
+  color: #e53935;
   transition: 0.2s;
 }
 
 .navbar nav a:hover {
-  color: #111;
+  color: #c62828;
 }
 
 .nav-btn,
@@ -72,6 +72,14 @@ a {
 .nav-btn:hover,
 .primary-btn:hover {
   background: #444;
+}
+
+.nav-btn {
+  background: #e53935;
+}
+
+.nav-btn:hover {
+  background: #c62828;
 }
 
 /* Hero */
